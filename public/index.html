@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Soluções de Logística Personalizadas</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <nav>
+          <ul>
+            <li><a href="#express-order">Transporte Expresso</a></li>
+            <li><a href="#reverse-logistics">Logística Reversa</a></li>
+            <li><a href="#about">Sobre</a></li>
+            <li><a href="#contact">Contato</a></li>
+          </ul>
+        </nav>
+        <div class="hero">
+          <h1>Soluções de Logística Personalizadas</h1>
+          <p>
+            Oferecendo serviços personalizados para gestão de cadeia de
+            suprimentos, transporte expresso e logística reversa.
+          </p>
+        </div>
+      </header>
+      <section id="express-order" class="order-form">
+        <h2>Enviar Pedido de Transporte Expresso</h2>
+        <form id="express-order-form">
+          <label for="recipient">Destinatário:</label>
+          <input type="text" id="recipient" name="recipient" required />
+
+          <label for="pickup-date">Data de Coleta:</label>
+          <input type="date" id="pickup-date" name="pickup-date" required />
+
+          <label for="delivery-address">Endereço de Entrega:</label>
+          <textarea
+            id="delivery-address"
+            name="delivery-address"
+            rows="4"
+            required
+          ></textarea>
+
+          <button type="submit">Enviar Pedido</button>
+        </form>
+      </section>
+      <section id="reverse-logistics" class="reverse-logistics">
+        <h2>Solicitar Serviço de Logística Reversa</h2>
+        <form id="reverse-logistics-form">
+          <label for="return-item">Item a ser Retornado:</label>
+          <input type="text" id="return-item" name="return-item" required />
+
+          <label for="return-reason">Motivo da Devolução:</label>
+          <textarea
+            id="return-reason"
+            name="return-reason"
+            rows="4"
+            required
+          ></textarea>
+
+          <label for="return-address">Endereço de Coleta:</label>
+          <input
+            type="text"
+            id="return-address"
+            name="return-address"
+            required
+          />
+
+          <button type="submit">Enviar Solicitação</button>
+        </form>
+      </section>
+      <section id="about" class="about">
+        <h2>Sobre</h2>
+        <p>Descrição da sua empresa e serviços oferecidos.</p>
+      </section>
+      <section id="contact" class="contact">
+        <h2>Contato</h2>
+        <p>Informações de contato da sua empresa.</p>
+      </section>
+      <footer>
+        <p>&copy; 2024 Soluções de Logística Personalizadas</p>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
